@@ -22,13 +22,14 @@ public class ex01_105021038 {
 		if (a <= 600) {
 			x = (int) (a * p);
 		} else {
-			if (a <= 1200) {
+			if (a <= 1200 && a >= 600) {
 				x = (int) (a * p * 0.9);
 			} else {
-				x = (int) (a * p * 0.9 * 0.79);
-				
+				x = (int) (a * p *  0.79);
+
 			}
-		}System.out.println(x);
+		}
+		System.out.println(x);
 
 	}
 
