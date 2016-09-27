@@ -17,5 +17,9 @@ public class hw03_105021038 {
 	}
 	else if(a%4==0){
 		System.out.println("閏年");
+		
+	}
+	else{
+		System.out.println("平年");
 	}
 }}
